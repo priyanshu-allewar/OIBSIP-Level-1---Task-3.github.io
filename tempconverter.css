@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(ilse-orsel-cPiKUJkTWWA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container {
+    background-color: #151610d9;
+    max-width: 500px;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: sans-serif;
+    box-shadow: 0px 0px 25px 5px rgba(129, 59, 59, 0.4);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Temperature-icon {
+    color: #fbfbfbee;
+    font-size: 45px;
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    color: white;
+}
+
+#celsius,
+#kelvin,
+#fahrenheit {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    flex: 5px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0px 0px 8px;
+    padding: 0px 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.icon{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    flex: 1 1 0%;
+    padding: 0px 5px;
+    background: rgb(77, 89, 100);
+    border-radius: 0px 8px 8px 0px;
+}
+.button{
+    text-align: center;
+    margin-top:25px ;
+}
+.button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #10141aab;
+}
+.button button:hover{
+    color: aliceblue;
+    background: #2331486e;
+}
